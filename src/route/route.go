@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	c, err := maps.NewClient(maps.WithAPIKey("AIzaSyC48zM8j2fa3JpUIlpECYBwk_IUI3XzoBc"))
+	c, err := maps.NewClient(maps.WithAPIKey(""))
 	if err != nil {
 		log.Fatalf("fatal error: %s", err)
 	}
